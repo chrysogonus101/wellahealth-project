@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body {
+  background-color: white;
+}
+
+.bg-home {
+  background: url('/wellapartner.png');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}

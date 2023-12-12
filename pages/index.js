@@ -71,7 +71,8 @@ export default function index () {
 
           <div className='flex flex-col-3 justify-center items-center gap-9 mt-9 pb-7'>
             <div>
-              <div>
+              <div className='flex flex-row gap-1'>
+                <Image width={20} height={20} src='/prescription.png'/>
                 <h5 className='font-bold'>HMO DRUGS REFILLS</h5>
               </div>
               <p>Supply enrollees of over 25 <br/> HMOs in Nigeria</p>
@@ -79,7 +80,8 @@ export default function index () {
             </div>
 
             <div>
-              <div>
+              <div className='flex flex-row gap-1'>
+              <Image width={20} height={20} src='/Basket.png'/>
                 <h5 className='font-bold'>TELEMEDICINE DRUG PICKUPS</h5>
               </div>
               <p>List your pharmacy as a medication pick up<br/> point for telemedicine services</p>
@@ -87,7 +89,8 @@ export default function index () {
             </div>
 
             <div>
-              <div>
+              <div className='flex flex-row gap-1'>
+              <Image width={20} height={20} src='/Clippathgroup.png'/>
                 <h5 className='font-bold'>HANDLE MALARIA CLAIMS</h5>
               </div>
               <p>Get paid for medications and tests<br/>provided</p>
@@ -109,45 +112,53 @@ export default function index () {
 
             <div className=' grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3 mt-5 pl-9 justify-center items-center'>
             <div>
-              <div>
+              <div className='flex flex-row gap-1'>
+              <Image width={20} height={20} src='/GooglePlayLogo.png'/>
                 <h5 className='font-bold'>WELLAPARTNER APP ACCESS</h5>
               </div>
               <p>Get access to wellapartner app & enjoy <br/>smooth fulfilment & payment flow for <br/>wellahealth request</p>
 
             </div>
+
             <div>
-              <div>
-                <h5 className='font-bold'>WELLAPARTNER APP ACCESS</h5>
-              </div>
-              <p>Get access to wellapartner app & enjoy <br/>smooth fulfilment & payment flow for <br/>wellahealth request</p>
+              <div className='flex flex-row gap-1'>
+                <Image width={20} height={20} src='/ClipboardText.png'/>
+                <h5 className='font-bold'>PATIENT RECORDS TRACKING</h5>
+                </div>
+              <p>Keep track of data for your walk-in patients and leverage that for better and effective patient  engagement.</p>
 
             </div>
             <div>
-              <div>
-                <h5 className='font-bold'>WELLAPARTNER APP ACCESS</h5>
+              <div className='flex flex-row gap-1'>
+              <Image width={20} height={20} src='/Airplay.png'/>
+                <h5 className='font-bold'>CHRONICARE DASHBOARD </h5>
               </div>
-              <p>Get access to wellapartner app & enjoy <br/>smooth fulfilment & payment flow for <br/>wellahealth request</p>
+              <p>Monitor your chronic disease patients  
+                effectively with our easy to use patient dashboard and improve care outcomes</p>
+
+            </div>
+            <div >
+              <div className='flex flex-row gap-1'>
+              <Image width={20} height={20} src='/MaskHappy.png'/>
+                <h5 className='font-bold'>AUTOMATED PATIENT FOLLOW UP</h5>
+              </div>
+              <p>Automate your patient follow up process and boost customer satisfaction and retention</p>
 
             </div>
             <div>
-              <div>
-                <h5 className='font-bold'>WELLAPARTNER APP ACCESS</h5>
+              <div className='flex flex-row gap-1'>
+              <Image width={20} height={20} src='/ChatCircleText.png'/>
+                <h5 className='font-bold'>BULK SMS</h5>
               </div>
-              <p>Get access to wellapartner app & enjoy <br/>smooth fulfilment & payment flow for <br/>wellahealth request</p>
+              <p>Engage your pool of clients with discounts, freebies and new product information using via sms</p>
 
             </div>
             <div>
-              <div>
-                <h5 className='font-bold'>WELLAPARTNER APP ACCESS</h5>
+              <div className='flex flex-row gap-1'>
+              <Image width={20} height={20} src='/Clippath.png'/>
+                <h5 className='font-bold'>PATIENT ACCESS TO TELEMEDICINE</h5>
               </div>
-              <p>Get access to wellapartner app & enjoy <br/>smooth fulfilment & payment flow for <br/>wellahealth request</p>
-
-            </div>
-            <div>
-              <div>
-                <h5 className='font-bold'>WELLAPARTNER APP ACCESS</h5>
-              </div>
-              <p>Get access to wellapartner app & enjoy <br/>smooth fulfilment & payment flow for <br/>wellahealth request</p>
+              <p>Give your clients access to telemedicine services right from your pharmacy premise and improve client satisfaction</p>
 
             </div>
 

@@ -20,7 +20,7 @@ export default function index () {
       <title>Landing page</title>
     </Head>
 
-    <main>
+    <main className='p-3'>
 
       <section1 className='flex flex-col justify-center items-center mt-9'>
           <h1 className='text-4xl pt-9 '>10X your pharmacy revenue with</h1>
@@ -69,7 +69,7 @@ export default function index () {
         <button className='bg-green-400 px-6 py-1 mt-6 rounded-md h-[48px] flex justify-center items-center gap-2'>Get Started <GoArrowRight className='mr-2'/></button>
       
 
-          <div className='flex flex-col-3 justify-center items-center gap-9 mt-9 pb-7'>
+          <div className='grid grid-cols-1 md:flex-cols-3 justify-center items-center gap-9 mt-9 pb-7'>
             <div>
               <div className='flex flex-row gap-1'>
                 <Image width={20} height={20} src='/prescription.png'/>
@@ -110,7 +110,7 @@ export default function index () {
 
             </section>
 
-            <div className=' grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3 mt-5 pl-9 justify-center items-center'>
+            <div className=' grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 mt-5 pl-9 justify-center items-center pb-6'>
             <div>
               <div className='flex flex-row gap-1'>
               <Image width={20} height={20} src='/GooglePlayLogo.png'/>
@@ -160,9 +160,77 @@ export default function index () {
               </div>
               <p>Give your clients access to telemedicine services right from your pharmacy premise and improve client satisfaction</p>
 
+             </div>
             </div>
 
+          <section className='flex flex-col justify-center items-center bg-gray-200 mt-7'>
+            <p className='text-2xl pt-4'>Continuous Support <span className='font-bold'>for</span></p>
+            <p className='text-3xl'>Business development</p>
+
+            <Image className='pt-6' height={800} width={500} src='/Frame2.jpg'/>
+            <p className='pt-5'>Whether you are a startup or an established<br/> company, having the right support can make<br/> a significant difference</p>
+
+            <button className='bg-green-400 px-6 py-1 mt-6 rounded-md h-[48px] flex justify-center items-center gap-2'>Get Started <GoArrowRight className='mr-2'/></button>
+
+            <div className=' grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 mt-7 pl-9 justify-center items-center pb-5'>
+            <div>
+              <div className='flex flex-row gap-1'>
+              <Image width={20} height={20} src='/FirstAid.png'/>
+                <h5 className='font-bold'>MEDICATION GROUP PURCHASE</h5>
+              </div>
+              <p>Get financing for medication purchase though our medication bulk purchase arrangement for partner pharmacies. </p>
+
             </div>
+
+            <div>
+              <div className='flex flex-row gap-1'>
+                <Image width={20} height={20} src='/Group.png'/>
+                <h5 className='font-bold'>BUSINESS SUPPORT & STAFF TRAINING</h5>
+                </div>
+              <p>Get access to business support materials and opportunites as well as training to boost your staff efficiency</p>
+
+            </div>
+            <div>
+              <div className='flex flex-row gap-1'>
+              <Image width={20} height={20} src='/Clip.png'/>
+                <h5 className='font-bold'>MARKETING SUPPORT </h5>
+              </div>
+              <p>Get support for better community engagement through digital and physical channels</p>
+            </div>
+            <div >
+              <div className='flex flex-row gap-1'>
+              <Image width={20} height={20} src='/Books.png'/>
+                <h5 className='font-bold'>INVENTORY INSIGHTS</h5>
+              </div>
+              <p>Leverage pharmacy business data for your business planning from wellahealth's inventory and business database</p>
+
+            </div>
+            <div>
+              <div className='flex flex-row gap-1'>
+              <Image width={20} height={20} src='/AddressBook.png'/>
+                <h5 className='font-bold'>LISTING ON WELLAPARTNER PLATFORM</h5>
+              </div>
+              <p>Gain visibility to the wider health system and access opportunities by being a part of the wellahealth network</p>
+
+            </div>
+            <div>
+              <div className='flex flex-row gap-1'>
+              <Image width={20} height={20} src='/Coins.png'/>
+                <h5 className='font-bold'>SECURE BUSINESS LOANS</h5>
+              </div>
+              <p>Our loans provide the financial foundation you need to expand your services, and enhance your overall pharmacy experience.</p>
+
+             </div>
+            </div>
+          </section>  
+
+        <div className='flex flex-col justify-center items-center mt-6'>
+          <h4 className='font-bold text-2xl'>Frequently Asked Questions?</h4>
+          <h5 className='pt-7'>Who owns wellapartner?</h5>
+          <p>Wellapartner is run by Wellahealth as one of their core products<br/> Wellapartner is run by Wellahealth as one of their core products</p>
+
+        </div>
+        
 
     </main>
   </>

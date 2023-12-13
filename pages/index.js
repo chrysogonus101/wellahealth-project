@@ -3,6 +3,13 @@ import Image from 'next/image';
 import { Nunito } from 'next/font/google';
 import { GoArrowRight } from "react-icons/go";
 
+import Accordion from '@mui/material/Accordion';
+import AccordionSummary from '@mui/material/AccordionSummary';
+import AccordionDetails from '@mui/material/AccordionDetails';
+import Typography from '@mui/material/Typography';
+
+
+
 
 
 const nunito = Nunito({
@@ -69,7 +76,7 @@ export default function index () {
         <button className='bg-green-400 px-6 py-1 mt-6 rounded-md h-[48px] flex justify-center items-center gap-2'>Get Started <GoArrowRight className='mr-2'/></button>
       
 
-          <div className='grid grid-cols-1 md:flex-cols-3 justify-center items-center gap-9 mt-9 pb-7'>
+          <div className='grid grid-rows-1 md:grid-cols-3 justify-center items-center gap-9 mt-9 pb-7'>
             <div>
               <div className='flex flex-row gap-1'>
                 <Image width={20} height={20} src='/prescription.png'/>
@@ -230,6 +237,40 @@ export default function index () {
           <p>Wellapartner is run by Wellahealth as one of their core products<br/> Wellapartner is run by Wellahealth as one of their core products</p>
 
         </div>
+
+        <div>
+      <Accordion>
+        <AccordionSummary
+          
+          aria-controls="panel1a-content"
+          id="panel1a-header"
+        >
+          <Typography>Accordion 1</Typography>
+        </AccordionSummary>
+        <AccordionDetails>
+          <Typography>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+            malesuada lacus ex, sit amet blandit leo lobortis eget.
+          </Typography>
+        </AccordionDetails>
+      </Accordion>
+      <Accordion>
+        <AccordionSummary
+          
+          aria-controls="panel2a-content"
+          id="panel2a-header"
+        >
+          <Typography>Accordion 2</Typography>
+        </AccordionSummary>
+        <AccordionDetails>
+          <Typography>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+            malesuada lacus ex, sit amet blandit leo lobortis eget.
+          </Typography>
+        </AccordionDetails>
+      </Accordion>
+  
+    </div>
         
 
     </main>

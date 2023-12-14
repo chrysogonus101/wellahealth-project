@@ -1,33 +1,20 @@
 import Head from 'next/head'
 import Image from 'next/image';
-import { Nunito } from 'next/font/google';
 import { GoArrowRight } from "react-icons/go";
-
-import Accordion from '@mui/material/Accordion';
-import AccordionSummary from '@mui/material/AccordionSummary';
-import AccordionDetails from '@mui/material/AccordionDetails';
-import Typography from '@mui/material/Typography';
-
-
-
-
-
-const nunito = Nunito({
-  subsets:['latin'],
-  weight:'700'
-});
-
 
 
 
 export default function index () {
   return (
   <>
+  
     <Head>
       <title>Landing page</title>
     </Head>
+    
 
     <main className='p-3'>
+      <Navbar/>
 
       <section1 className='flex flex-col justify-center items-center mt-9'>
           <h1 className='text-4xl pt-9 '>10X your pharmacy revenue with</h1>
